@@ -1,0 +1,140 @@
+- name: Employee Management
+  icon: fas fa-business-time
+  items:
+    - name: Employee
+      description: Employee management and administration.
+      route: Employee
+      icon: fas fa-user-tie
+    - name: Job Title
+      description: Job title management and administration.
+      route: JobTitle
+      icon: fas fa-user-cog
+    - name: Department
+      description: Department management and administration.
+      route: Department
+      icon: fas fa-sitemap
+    - name: Employment Status
+      description: Employment status management and administration.
+      route: EmploymentStatus
+      icon: fas fa-briefcase
+    
+- name: Time and Attendance
+  icon: fas fa-clock
+  items:
+    - name: Time Entry
+      description: Time entry management and administration.
+      route: TimeEntry
+      icon: fas fa-hourglass-start
+    - name: Time Period
+      description: Time period management and administration.
+      route: TimePeriod
+      icon: fas fa-calendar-alt
+    - name: Work Hours
+      description: Work hours management and administration.
+      route: WorkHours
+      icon: fas fa-business-time
+    - name: Breaks
+      description: Breaks management and administration.
+      route: Breaks
+      icon: fas fa-coffee
+
+- name: Project and Task Management
+  icon: fas fa-tasks
+  items:
+    - name: Project
+      description: Project management and administration.
+      route: Project
+      icon: fas fa-project-diagram
+    - name: Activity
+      description: Activity management and administration.
+      route: Activity
+      icon: fas fa-chart-line
+    - name: Milestone
+      description: Milestone management and administration.
+      route: Milestone
+      icon: fas fa-flag
+    - name: Custom Task
+      description: Custom task management and administration.
+      route: CustomTask
+      icon: fas fa-tasks
+
+- name: Performance and Training
+  icon: fas fa-chart-bar
+  items:
+    - name: Performance Review
+      description: Performance review management and administration.
+      route: PerformanceReview
+      icon: fas fa-star
+    - name: Employee Skills
+      description: Employee skills management and administration.
+      route: EmployeeSkills
+      icon: fas fa-brain
+    - name: Employee Training
+      description: Employee training management and administration.
+      route: EmployeeTraining
+      icon: fas fa-graduation-cap
+    - name: Employee Documents
+      description: Employee documents management and administration.
+      route: EmployeeDocuments
+      icon: fas fa-file-alt
+
+- name: Administration and Settings
+  icon: fas fa-cogs
+  items:
+    - name: Tenant
+      description: Tenant management and administration.
+      route: Tenant
+      icon: fas fa-home
+    - name: User Token
+      description: User token management and administration.
+      route: UserToken
+      icon: fas fa-key
+    - name: Role Entitlement
+      description: Role entitlement management and administration.
+      route: RoleEntitlement
+      icon: fas fa-user-check
+    - name: Entity
+      description: Entity management and administration.
+      route: Entity
+      icon: fas fa-cube
+    - name: Timezone
+      description: Timezone management and administration.
+      route: Timezone
+      icon: fas fa-globe
+    - name: Attendance
+      description: Attendance management and administration.
+      route: Attendance
+      icon: fas fa-calendar-check
+    - name: Timesheet
+      description: Timesheet management and administration.
+      route: Timesheet
+      icon: fas fa-clipboard-list
+    - name: Time Off Request
+      description: Time off request management and administration.
+      route: TimeOffRequest
+      icon: fas fa-umbrella-beach
+    - name: Payroll
+      description: Payroll management and administration.
+      route: Payroll
+      icon: fas fa-wallet
+    - name: Pay Grade
+      description: Pay grade management and administration.
+      route: PayGrade
+      icon: fas fa-sort-amount-up
+    - name: Client
+      description: Client management and administration.
+      route: Client
+      icon: fas fa-handshake
+    - name: Billing
+      description: Billing management and administration.
+      route: Billing
+      icon: fas fa-credit-card
+    - name: Work Logs
+      description: Work logs management and administration.
+      route: WorkLogs
+      icon: fas fa-calendar-check
+    - name: Time Allocation
+      description: Time allocation management and administration.
+      route: TimeAllocation
+      icon: fas fa-calendar-week
+

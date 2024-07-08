@@ -1,0 +1,59 @@
+- name: Personal details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: false
+    length: 255
+    label: Name
+    column: 2
+  - fieldName: Code
+    dataType: string
+    required: false
+    length: 50
+    label: Code
+    column: 2
+- name: Contact information
+  type: section
+  column: 4
+  fields:
+  - fieldName: Email
+    dataType: string
+    required: false
+    length: 255
+    label: Email
+    column: 2
+  - fieldName: Phone
+    dataType: string
+    required: false
+    length: 20
+    label: Phone
+    column: 2
+- name: Employment information
+  type: section
+  column: 4
+  fields:
+  - fieldName: DepartmentId
+    dataType: guid
+    required: false
+    label: Department
+    column: 2
+    dataSource: Department
+  - fieldName: JobTitleId
+    dataType: guid
+    required: false
+    label: Job Title
+    column: 2
+    dataSource: JobTitle
+  - fieldName: EmploymentStatusId
+    dataType: guid
+    required: false
+    label: Employment Status
+    column: 2
+    dataSource: EmploymentStatus
+  - fieldName: HireDate
+    dataType: datetime
+    required: false
+    label: Hire Date
+    column: 2

@@ -1,0 +1,35 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: String
+      label: Name
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: DepartmentId
+      dataType: guid
+      label: Department
+      column: 4
+      dataSource: Department
+    - fieldName: JobTitleId
+      dataType: guid
+      label: Job Title
+      column: 4
+      dataSource: JobTitle
+    - fieldName: EmploymentStatusId
+      dataType: guid
+      label: Employment Status
+      column: 4
+      dataSource: EmploymentStatus
+filter:
+  fields:
+  - fieldName: Name
+    dataType: String
+    label: Name
+    column: 4
+  - fieldName: DepartmentId
+    dataType: guid
+    label: Department
+    column: 4
+    dataSource: Department

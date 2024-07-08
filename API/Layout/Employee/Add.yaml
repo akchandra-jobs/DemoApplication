@@ -1,0 +1,34 @@
+- name: Personal details
+  type: section
+  column: 4
+  fields:
+    - fieldName: Name
+      dataType: string
+      required: false
+      length: 255
+      label: Name
+      column: 2
+    - fieldName: Code
+      dataType: string
+      required: false
+      length: 50
+      label: Code
+      column: 2
+  showTitle: true
+- name: Contact information
+  type: section
+  column: 4
+  fields:
+    - fieldName: Email
+      dataType: string
+      required: false
+      length: 255
+      label: Email
+      column: 2
+    - fieldName: Phone
+      dataType: string
+      required: false
+      length: 20
+      label: Phone
+      column: 2
+  showTitle: true
